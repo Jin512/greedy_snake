@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././inc/game.hpp
+unistd.h
+-
+iostream
+.././inc/iostream
+pthread.h
+.././inc/pthread.h
+termio.h
+-
+
+/home/amazing/Documents/Artinx/greedy_snake-master/src/game.cpp
+game.hpp
+/home/amazing/Documents/Artinx/greedy_snake-master/src/game.hpp
+
+/home/amazing/Documents/Artinx/greedy_snake-master/src/main.cpp
+game.hpp
+/home/amazing/Documents/Artinx/greedy_snake-master/src/game.hpp
+
